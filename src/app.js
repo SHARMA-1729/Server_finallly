@@ -30,7 +30,7 @@ app.use("/api/v1/users", userRouter)
 // app.use('/api/v1/menu/', menuRouter);
 
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     console.log("hello");
     res.send("Hello, world!");  // Sending a response to the client
 });
