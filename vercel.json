@@ -9,12 +9,9 @@
   "routes": [
     {
       "src": "/(.*)",  
-      "dest": "src/index.js"
+      "dest": "/"
        "methods": ["GET", "POST", "PATCH", "DELETE", "OPTIONS"]
-    },
-    {
-      "src": "/(.*)",  
-      "dest": "src/index.js"
     }
+   
   ]
 }
