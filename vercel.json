@@ -13,15 +13,6 @@
     }
   ],
   "env": {
-    "PORT": "4000",
-    "MONGODB_URI": "@mongodb_uri",
-    "CORS_ORIGIN": "*",
-    "REFRESH_TOKEN_SECRET": "@refresh_token_secret",
-    "ACCESS_TOKEN_SECRET": "@access_token_secret",
-    "REFRESH_TOKEN_EXPIRY": "10d",
-    "ACCESS_TOKEN_EXPIRY": "10d",
-    "CLOUDINARY_CLOUD_NAME": "@cloudinary_cloud_name",
-    "CLOUDINARY_API_KEY": "@cloudinary_api_key",
-    "CLOUDINARY_API_SECRET": "@cloudinary_api_secret"
+    "MONGODB_URI": "@mongodb_uri"  
   }
 }
